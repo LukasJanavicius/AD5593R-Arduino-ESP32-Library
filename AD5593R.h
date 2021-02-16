@@ -28,7 +28,7 @@ https://github.com/LukasJanavicius
 //  AD5593R_DEBUG
 #pragma once
 //comment this line to disable debugging
-//#define AD5593R_DEBUG
+#define AD5593R_DEBUG
 
 #ifdef AD5593R_DEBUG
 #define AD5593R_PRINT(...)    Serial.print(__VA_ARGS__)

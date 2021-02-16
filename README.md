@@ -6,3 +6,8 @@ This library allows for the configuration, writing, and reading of the 8 ADC/DAC
 - The [AD5593R](https://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf) is connected to the master device through an I2C connection. Any board capable of programming through the Arduino framework with an I2C bus will work.
 - By attaching a GPIO pin to the a0 pin of the AD5593R multiple chips can be addressed on the same bus.
   - Assigning this pin in the class constructor maps the microcontroller's gpio to the ADC
+
+
+## Debugging
+- By default the debug print statements are enabled. To disable comment out line 31 in "AD5593R.h"
+  - //#define AD5593R_DEBUG
